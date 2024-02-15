@@ -29,7 +29,7 @@ header h2 {
 }
 header img {
     float: left;
-    margin-left: 10px;
+    margin-left: 2px;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(238, 167, 182);
