@@ -44,8 +44,22 @@ main h3 {
     padding: 1em;
     font-size: 105%;
 }
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed pink;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px peachpuff;
+    padding: 1em;
+}
 #list {
     line-height: 1.5em;
+}
+div.contact {
+    margin: 1.5em 2em 0 2em;
+    border: 5px dotted pink;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px peachpuff;
+    padding: 1em;
 }
 footer p.copyright {
     text-align: center;
