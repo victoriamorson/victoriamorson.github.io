@@ -72,8 +72,14 @@ article img {
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
     color: pink;
+}
+article ol {
+    list-style-type:upper-roman;
+}
+aside ul {
+    list-style-type: square;
 }
 aside{
     width: 20%;
