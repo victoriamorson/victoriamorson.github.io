@@ -46,14 +46,14 @@ header h2 {
 }
 header img {
     float: left;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(238, 167, 182);
 }
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted pink;
