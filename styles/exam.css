@@ -76,9 +76,9 @@ article p::first-letter {
 }
 aside{
     width: 20%;
+    float: right;
     position: fixed;
     border: 3px solid blue;
-    float: right;
     background-color: #ffebc6; 
 }
 footer {
