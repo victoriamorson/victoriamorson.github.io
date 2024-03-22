@@ -84,7 +84,7 @@ aside ul {
 aside{
     width: 20%;
     float: right;
-    position: fixed;
+    position: fixed top right;
     border: 3px solid blue;
     background-color: #ffebc6; 
 }
