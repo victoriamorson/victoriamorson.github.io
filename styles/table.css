@@ -16,3 +16,6 @@ table.second {
     border: 2px solid purple;
     caption-side: bottom;
 }
+table.second th {
+    background-color: salmon;
+}
