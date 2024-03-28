@@ -14,5 +14,5 @@ table.first tr:nth-child(odd) {
 table.second {
     border-collapse: collapse;
     border: 2px solid purple;
-    
+    caption-side: bottom;
 }
