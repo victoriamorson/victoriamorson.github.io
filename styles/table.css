@@ -38,12 +38,6 @@ table.third th, table.third td {
     border: 2px solid orangered;
 }
 
-•	vertical-align: top;  (to align the Category numbers 1, 2, and 3 to the top in the cells as shown in the screenshot.)
-•	tr:first-child, tr:nth-child(…), and tr:last-child  (to display borders exactly as shown in the screenshot). 
-For example, table.third thead tr:first-child { border-top: 2px solid orangered; ….. }
-
-
-
 @media only screen and (max-width: 425px) {
     th, td {
         display: block;
