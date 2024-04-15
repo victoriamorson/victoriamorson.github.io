@@ -156,6 +156,7 @@ menu-button-container {
 .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
 }
+
 article h2{
     font-size: 1.1em;
 }
