@@ -24,3 +24,32 @@ table.second th, table.second td {
     vertical-align: middle;
     border: 2px solid purple;
 }
+table.third {
+    border-collapse: collapse;
+    border: 2px solid orangered;
+    caption-side: bottom;
+}
+table.third th {
+    background-color: lightgreen;
+}
+table.third th, table.third td {
+    padding: .7em;
+    vertical-align: top;
+    border: 2px solid orangered;
+}
+
+•	vertical-align: top;  (to align the Category numbers 1, 2, and 3 to the top in the cells as shown in the screenshot.)
+•	tr:first-child, tr:nth-child(…), and tr:last-child  (to display borders exactly as shown in the screenshot). 
+For example, table.third thead tr:first-child { border-top: 2px solid orangered; ….. }
+
+
+
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
