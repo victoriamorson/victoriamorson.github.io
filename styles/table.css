@@ -30,6 +30,7 @@ table.third {
 }
 table.third thead {
     background-color: lightgreen;
+    border-collapse: collapse;
     border: 2px solid orangered;
 }
 table.third tr:nth-child(), table.third td {
