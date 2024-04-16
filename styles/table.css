@@ -28,7 +28,7 @@ table.third {
     border-collapse: collapse;
     border: 2px solid orangered;
 }
-table.third th {
+table.third thead {
     background-color: lightgreen;
 }
 table.third tr:nth-child(), table.third td {
