@@ -26,7 +26,6 @@ table.second th, table.second td {
 }
 table.third {
     border-collapse: collapse;
-    border: 2px solid orangered;
 }
 table.third thead {
     background-color: lightgreen;
